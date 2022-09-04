@@ -1,0 +1,13 @@
+@import './a.css';
+body {
+  background-color: #f60;
+  /* 需要添加前缀的样式 */
+	user-select:none;
+  display: flex;
+  transition: all .2s ease;
+}
+.demo {
+  width: 300px;
+  height: 300px;
+  background: url("./assets/images/22.jpg")
+}
